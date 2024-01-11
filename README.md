@@ -18,9 +18,11 @@ You can check the current status with:
 
 ## Test the container
 Just to check
-```curl http://127.0.0.1:8080/api/tags''``
+
+```curl http://127.0.0.1:8080/api/tags''```
 
 Try to classify some text
+
 ```curl -X POST -H "Content-Type: application/json" -d '{"input_string": ["On our site, you can find a great genre identification model which you can use for thousands of different tasks."]}' http://127.0.0.1:8080/api/classify```
 
 
